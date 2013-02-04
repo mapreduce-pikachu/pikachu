@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>dfs.name.dir</name>
+  <value>/export/gandhir/hadoop/dfs</value>
+
+</property>
+
+<property>
+  <name>dfs.data.dir</name>
+  <value>/export/gandhir/hadoop/dfs</value>
+</property>
+
+<property>
+  <name>dfs.secondary.http.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The secondary namenode http server address and port.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>dfs.datanode.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The address where the datanode server will listen to.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>dfs.datanode.http.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The datanode http server address and port.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>dfs.datanode.ipc.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The datanode ipc server address and port.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>dfs.http.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The address and the base port where the dfs namenode web ui will listen on.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+
+
+</configuration>

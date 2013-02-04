@@ -1,0 +1,91 @@
+package org.apache.hadoop.mapred;
+
+import java.io.DataInput;
+import java.io.DataOutput;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import org.apache.hadoop.io.Writable;
+
+public class virtualMapper {
+  private int[] virtualMap;
+  private int maxVirtualBins;
+  private int version;
+  private boolean setDefault;
+
+  public void virtualMapper() {
+    setDefault = false;
+  }
+
+  public void setDefault(JobConf conf) {
+    String[] vbin = conf.getStrings("maxVirtualBins");
+    String[] tempMap = conf.getStrings("hostsReducerShare");
+    maxVirtualBins = Integer.parseInt(vbin[0]);
+    // System.out.println("maxVirtualBins = " + maxVirtualBins);
+    virtualMap = new int[maxVirtualBins];
+
+    for (int i = 0; i < Integer.parseInt(vbin[0]); i++) {
+      virtualMap[i] = Integer.parseInt(tempMap[i]);
+    }
+    setDefault = true;
+  }
+
+  public boolean set(int[] bins, int myversion) {
+    if (setDefault == false) {
+      virtualMap = Arrays.copyOf(bins, bins.length);
+      version = myversion;
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  // public void virtualMapper() {
+  //
+  // String[] vbin = conf.getStrings("maxVirtualBins");
+  // String[] tempMap = conf.getStrings("hostsReducerShare");
+  // maxVirtualBins = Integer.parseInt(vbin[0]);
+  // // System.out.println("maxVirtualBins = " + maxVirtualBins);
+  // virtualMap = new int[maxVirtualBins];
+  //
+  // for (int i = 0; i < Integer.parseInt(vbin[0]); i++) {
+  // virtualMap[i] = Integer.parseInt(tempMap[i]);
+  // }
+  // }
+
+  public List<Integer> getReducerBins(int reduce) {
+    List<Integer> returnBins = new ArrayList<Integer>();
+    for (int i = 0; i < maxVirtualBins; i++) {
+      if (virtualMap[i] == reduce) {
+        returnBins.add(i);
+        // System.out.println("virtual bin added" + i);
+      }
+    }
+    return returnBins;
+  }
+
+  public int getVersion() {
+    return version;
+  }
+
+  public void write(DataOutput out) throws IOException {    
+    // TODO: test write
+    out.writeInt(version);
+    out.writeInt(maxVirtualBins);
+    for (int i = 0; i < maxVirtualBins; i++) {
+      out.writeInt(virtualMap[i]);
+    }
+  }
+
+  public void readFields(DataInput in) throws IOException {
+    // TODO: test read
+    version = in.readInt();
+    maxVirtualBins = in.readInt();
+    virtualMap = new int[maxVirtualBins];
+    for (int i = 0; i < maxVirtualBins; i++) {
+      virtualMap[i] = in.readInt();
+    }
+  }
+}

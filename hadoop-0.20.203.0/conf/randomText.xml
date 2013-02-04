@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>test.randomtextwrite.bytes_per_map</name>
+		<value>67108864</value>
+	</property>
+	<property>
+		<name>test.randomtextwrite.maps_per_host</name>
+		<value>32</value>
+	</property>
+<!--	<property>
+		<name>mapred.map.enable.balance</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>mapred.map.remote.extracost</name>
+		<value>0.4</value>
+	</property>-->
+</configuration>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+<property>
+  <name>mapred.job.tracker</name>
+  <value>ds01:54000</value>
+</property>
+
+<property>
+  <name>mapred.system.dir</name>
+  <value></value>
+</property>
+
+<property>
+  <name>mapred.system.dir</name>
+  <value>/export/gandhir/hadoop/mapred/system</value>
+</property>
+
+<property>
+  <name>mapred.local.dir</name>
+  <value>/export/gandhir/hadoop/mapred/local</value>
+</property>
+
+<property>
+  <name>mapred.tasktracker.map.tasks.maximum</name>
+  <value>6</value>
+</property>
+
+<property>
+  <name>mapred.tasktracker.reduce.tasks.maximum</name>
+  <value>1</value>
+</property>
+
+<property>
+  <name>mapred.jobtracker.hostsfortasks</name>
+  <value>1</value>
+</property>
+
+<property>
+  <name>mapred.task.tracker.http.address</name>
+  <value>0.0.0.0:0</value>
+  <description>
+    The task tracker http server address and port.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>mapred.map.tasks.speculative.execution</name>
+  <value>false</value>
+</property>
+
+<property>
+  <name>mapred.reduce.tasks.speculative.execution</name>
+  <value>false</value>
+</property>
+<!--<property>
+  <name>mapred.child.java.opts</name>
+  <value>Xmx512m</value>
+</property>
+-->
+</configuration>

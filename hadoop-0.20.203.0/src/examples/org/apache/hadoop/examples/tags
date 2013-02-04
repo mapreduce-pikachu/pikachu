@@ -1,0 +1,252 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AccessFieldNames	DBCountPageView.java	/^  private static final String[] AccessFieldNames = {"url", "referrer", "time"};$/;"	f	class:DBCountPageView	file:
+AccessRecord	DBCountPageView.java	/^  static class AccessRecord implements Writable, DBWritable {$/;"	c	class:DBCountPageView
+AggregateWordCount	AggregateWordCount.java	/^public class AggregateWordCount {$/;"	c
+AggregateWordHistogram	AggregateWordHistogram.java	/^public class AggregateWordHistogram {$/;"	c
+AggregateWordHistogramPlugin	AggregateWordHistogram.java	/^  public static class AggregateWordHistogramPlugin $/;"	c	class:AggregateWordHistogram
+BYTES_WRITTEN	RandomTextWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	e	enum:RandomTextWriter.Counters	file:
+BYTES_WRITTEN	RandomWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	e	enum:RandomWriter.Counters	file:
+Comparator	SecondarySort.java	/^      public Comparator() {$/;"	m	class:SecondarySort.IntPair.Comparator
+Comparator	SecondarySort.java	/^    public static class Comparator extends WritableComparator {$/;"	c	class:SecondarySort.IntPair
+Counters	RandomTextWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	g	class:RandomTextWriter
+Counters	RandomWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	g	class:RandomWriter
+DBCountPageView	DBCountPageView.java	/^public class DBCountPageView extends Configured implements Tool {$/;"	c
+DB_URL	DBCountPageView.java	/^  private static final String DB_URL = "jdbc:hsqldb:hsql:\/\/localhost\/URLAccess";$/;"	f	class:DBCountPageView	file:
+DRIVER_CLASS	DBCountPageView.java	/^  private static final String DRIVER_CLASS = "org.hsqldb.jdbcDriver";$/;"	f	class:DBCountPageView	file:
+EmptySplit	SleepJob.java	/^  public static class EmptySplit implements InputSplit {$/;"	c	class:SleepJob
+ExampleDriver	ExampleDriver.java	/^public class ExampleDriver {$/;"	c
+FirstGroupingComparator	SecondarySort.java	/^  public static class FirstGroupingComparator $/;"	c	class:SecondarySort
+FirstPartitioner	SecondarySort.java	/^  public static class FirstPartitioner extends Partitioner<IntPair,IntWritable>{$/;"	c	class:SecondarySort
+Grep	Grep.java	/^  private Grep() {}                               \/\/ singleton$/;"	m	class:Grep	file:
+Grep	Grep.java	/^public class Grep extends Configured implements Tool {$/;"	c
+HaltonSequence	PiEstimator.java	/^    HaltonSequence(long startindex) {$/;"	m	class:PiEstimator.HaltonSequence
+HaltonSequence	PiEstimator.java	/^  private static class HaltonSequence {$/;"	c	class:PiEstimator
+IntPair	SecondarySort.java	/^  public static class IntPair $/;"	c	class:SecondarySort
+IntSumReducer	WordCount.java	/^  public static class IntSumReducer $/;"	c	class:WordCount
+Join	Join.java	/^public class Join extends Configured implements Tool {$/;"	c
+K	PiEstimator.java	/^    static final int[] K = {63, 40}; $/;"	f	class:PiEstimator.HaltonSequence
+LOG	DBCountPageView.java	/^  private static final Log LOG = LogFactory.getLog(DBCountPageView.class);$/;"	f	class:DBCountPageView	file:
+Map	RandomTextWriter.java	/^  static class Map extends MapReduceBase $/;"	c	class:RandomTextWriter
+Map	RandomWriter.java	/^  static class Map extends MapReduceBase$/;"	c	class:RandomWriter
+MapClass	MultiFileWordCount.java	/^  public static class MapClass extends MapReduceBase$/;"	c	class:MultiFileWordCount
+MapClass	SecondarySort.java	/^  public static class MapClass $/;"	c	class:SecondarySort
+MultiFileLineRecordReader	MultiFileWordCount.java	/^    public MultiFileLineRecordReader(Configuration conf, MultiFileSplit split)$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+MultiFileLineRecordReader	MultiFileWordCount.java	/^  public static class MultiFileLineRecordReader $/;"	c	class:MultiFileWordCount
+MultiFileWordCount	MultiFileWordCount.java	/^public class MultiFileWordCount extends Configured implements Tool {$/;"	c
+MyInputFormat	MultiFileWordCount.java	/^  public static class MyInputFormat $/;"	c	class:MultiFileWordCount
+ONE	DBCountPageView.java	/^    LongWritable ONE = new LongWritable(1L);$/;"	f	class:DBCountPageView.PageviewMapper
+P	PiEstimator.java	/^    static final int[] P = {2, 3}; $/;"	f	class:PiEstimator.HaltonSequence
+PageviewFieldNames	DBCountPageView.java	/^  private static final String[] PageviewFieldNames = {"url", "pageview"};$/;"	f	class:DBCountPageView	file:
+PageviewMapper	DBCountPageView.java	/^  static class PageviewMapper extends MapReduceBase $/;"	c	class:DBCountPageView
+PageviewRecord	DBCountPageView.java	/^    public PageviewRecord(String url, long pageview) {$/;"	m	class:DBCountPageView.PageviewRecord
+PageviewRecord	DBCountPageView.java	/^  static class PageviewRecord implements Writable, DBWritable {$/;"	c	class:DBCountPageView
+PageviewReducer	DBCountPageView.java	/^  static class PageviewReducer extends MapReduceBase $/;"	c	class:DBCountPageView
+PiEstimator	PiEstimator.java	/^public class PiEstimator extends Configured implements Tool {$/;"	c
+PiMapper	PiEstimator.java	/^  public static class PiMapper extends MapReduceBase$/;"	c	class:PiEstimator
+PiReducer	PiEstimator.java	/^  public static class PiReducer extends MapReduceBase$/;"	c	class:PiEstimator
+RECORDS_WRITTEN	RandomTextWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	e	enum:RandomTextWriter.Counters	file:
+RECORDS_WRITTEN	RandomWriter.java	/^  static enum Counters { RECORDS_WRITTEN, BYTES_WRITTEN }$/;"	e	enum:RandomWriter.Counters	file:
+RandomInputFormat	RandomWriter.java	/^  static class RandomInputFormat implements InputFormat<Text, Text> {$/;"	c	class:RandomWriter
+RandomRecordReader	RandomWriter.java	/^      public RandomRecordReader(Path p) {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+RandomRecordReader	RandomWriter.java	/^    static class RandomRecordReader implements RecordReader<Text, Text> {$/;"	c	class:RandomWriter.RandomInputFormat
+RandomTextWriter	RandomTextWriter.java	/^public class RandomTextWriter extends Configured implements Tool {$/;"	c
+RandomWriter	RandomWriter.java	/^public class RandomWriter extends Configured implements Tool {$/;"	c
+Reduce	SecondarySort.java	/^  public static class Reduce $/;"	c	class:SecondarySort
+SEPARATOR	SecondarySort.java	/^    private static final Text SEPARATOR = $/;"	f	class:SecondarySort.Reduce	file:
+SecondarySort	SecondarySort.java	/^public class SecondarySort {$/;"	c
+SleepInputFormat	SleepJob.java	/^  public static class SleepInputFormat extends Configured$/;"	c	class:SleepJob
+SleepJob	SleepJob.java	/^public class SleepJob extends Configured implements Tool,  $/;"	c
+Sort	Sort.java	/^public class Sort<K,V> extends Configured implements Tool {$/;"	c
+TMP_DIR	PiEstimator.java	/^  static private final Path TMP_DIR = new Path($/;"	f	class:PiEstimator	file:
+TokenizerMapper	WordCount.java	/^  public static class TokenizerMapper $/;"	c	class:WordCount
+WordCount	WordCount.java	/^public class WordCount {$/;"	c
+WordCountPlugInClass	AggregateWordCount.java	/^  public static class WordCountPlugInClass extends$/;"	c	class:AggregateWordCount
+WordOffset	MultiFileWordCount.java	/^  public static class WordOffset implements WritableComparable {$/;"	c	class:MultiFileWordCount
+close	MultiFileWordCount.java	/^    public void close() throws IOException { }$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+close	PiEstimator.java	/^    public void close() throws IOException {$/;"	m	class:PiEstimator.PiReducer
+close	RandomWriter.java	/^      public void close() {}$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+close	SleepJob.java	/^  public void close() throws IOException {$/;"	m	class:SleepJob
+compare	SecondarySort.java	/^      public int compare(byte[] b1, int s1, int l1,$/;"	m	class:SecondarySort.IntPair.Comparator
+compare	SecondarySort.java	/^    public int compare(IntPair o1, IntPair o2) {$/;"	m	class:SecondarySort.FirstGroupingComparator
+compare	SecondarySort.java	/^    public int compare(byte[] b1, int s1, int l1, byte[] b2, int s2, int l2) {$/;"	m	class:SecondarySort.FirstGroupingComparator
+compareTo	MultiFileWordCount.java	/^    public int compareTo(Object o) {$/;"	m	class:MultiFileWordCount.WordOffset
+compareTo	SecondarySort.java	/^    public int compareTo(IntPair o) {$/;"	m	class:SecondarySort.IntPair
+conf	PiEstimator.java	/^    private JobConf conf; \/\/configuration for accessing the file system$/;"	f	class:PiEstimator.PiReducer	file:
+configure	PiEstimator.java	/^    public void configure(JobConf job) {$/;"	m	class:PiEstimator.PiReducer
+configure	RandomTextWriter.java	/^    public void configure(JobConf job) {$/;"	m	class:RandomTextWriter.Map
+configure	RandomWriter.java	/^    public void configure(JobConf job) {$/;"	m	class:RandomWriter.Map
+configure	SleepJob.java	/^  public void configure(JobConf job) {$/;"	m	class:SleepJob
+connection	DBCountPageView.java	/^  private Connection connection;$/;"	f	class:DBCountPageView	file:
+count	MultiFileWordCount.java	/^    private int count = 0;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+count	SleepJob.java	/^  private int count = 0;$/;"	f	class:SleepJob	file:
+createConnection	DBCountPageView.java	/^  private void createConnection(String driverClassName$/;"	m	class:DBCountPageView	file:
+createKey	MultiFileWordCount.java	/^    public WordOffset createKey() {$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+createKey	RandomWriter.java	/^      public Text createKey() {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+createTables	DBCountPageView.java	/^  private void createTables() throws SQLException {$/;"	m	class:DBCountPageView	file:
+createValue	MultiFileWordCount.java	/^    public Text createValue() {$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+createValue	RandomWriter.java	/^      public Text createValue() {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+currentReader	MultiFileWordCount.java	/^    private BufferedReader currentReader;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+currentStream	MultiFileWordCount.java	/^    private FSDataInputStream currentStream;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+d	PiEstimator.java	/^    private int[][] d;$/;"	f	class:PiEstimator.HaltonSequence	file:
+dropTables	DBCountPageView.java	/^  private void dropTables() {$/;"	m	class:DBCountPageView	file:
+equals	MultiFileWordCount.java	/^    public boolean equals(Object obj) {$/;"	m	class:MultiFileWordCount.WordOffset
+equals	SecondarySort.java	/^    public boolean equals(Object right) {$/;"	m	class:SecondarySort.IntPair
+estimate	PiEstimator.java	/^  public static BigDecimal estimate(int numMaps, long numPoints, JobConf jobConf$/;"	m	class:PiEstimator
+fileName	MultiFileWordCount.java	/^    private String fileName;$/;"	f	class:MultiFileWordCount.WordOffset	file:
+first	SecondarySort.java	/^    private final Text first = new Text();$/;"	f	class:SecondarySort.Reduce	file:
+first	SecondarySort.java	/^    private int first = 0;$/;"	f	class:SecondarySort.IntPair	file:
+fs	MultiFileWordCount.java	/^    private FileSystem fs;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+generateKeyValPairs	AggregateWordCount.java	/^    public ArrayList<Entry<Text, Text>> generateKeyValPairs(Object key,$/;"	m	class:AggregateWordCount.WordCountPlugInClass
+generateKeyValPairs	AggregateWordHistogram.java	/^    public ArrayList<Entry<Text, Text>> generateKeyValPairs(Object key, Object val) {$/;"	m	class:AggregateWordHistogram.AggregateWordHistogramPlugin
+generateSentence	RandomTextWriter.java	/^    private Text generateSentence(int noWords) {$/;"	m	class:RandomTextWriter.Map	file:
+getFirst	SecondarySort.java	/^    public int getFirst() {$/;"	m	class:SecondarySort.IntPair
+getLength	SleepJob.java	/^    public long getLength() { return 0L; }$/;"	m	class:SleepJob.EmptySplit
+getLocations	SleepJob.java	/^    public String[] getLocations() { return new String[0]; }$/;"	m	class:SleepJob.EmptySplit
+getPartition	SecondarySort.java	/^    public int getPartition(IntPair key, IntWritable value, $/;"	m	class:SecondarySort.FirstPartitioner
+getPartition	SleepJob.java	/^  public int getPartition(IntWritable k, NullWritable v, int numPartitions) {$/;"	m	class:SleepJob
+getPos	MultiFileWordCount.java	/^    public long getPos() throws IOException {$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+getPos	RandomWriter.java	/^      public long getPos() {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+getProgress	MultiFileWordCount.java	/^    public float getProgress() throws IOException {$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+getProgress	RandomWriter.java	/^      public float getProgress() {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+getRecordReader	MultiFileWordCount.java	/^    public RecordReader<WordOffset,Text> getRecordReader(InputSplit split$/;"	m	class:MultiFileWordCount.MyInputFormat
+getRecordReader	RandomWriter.java	/^    public RecordReader<Text, Text> getRecordReader(InputSplit split,$/;"	m	class:RandomWriter.RandomInputFormat
+getRecordReader	SleepJob.java	/^    public RecordReader<IntWritable,IntWritable> getRecordReader($/;"	m	class:SleepJob.SleepInputFormat
+getResult	Sort.java	/^  public RunningJob getResult() {$/;"	m	class:Sort
+getSecond	SecondarySort.java	/^    public int getSecond() {$/;"	m	class:SecondarySort.IntPair
+getSplits	RandomWriter.java	/^    public InputSplit[] getSplits(JobConf job, $/;"	m	class:RandomWriter.RandomInputFormat
+getSplits	SleepJob.java	/^    public InputSplit[] getSplits(JobConf conf, int numSplits) {$/;"	m	class:SleepJob.SleepInputFormat
+hashCode	MultiFileWordCount.java	/^    public int hashCode() {$/;"	m	class:MultiFileWordCount.WordOffset
+hashCode	SecondarySort.java	/^    public int hashCode() {$/;"	m	class:SecondarySort.IntPair
+index	PiEstimator.java	/^    private long index;$/;"	f	class:PiEstimator.HaltonSequence	file:
+initialize	DBCountPageView.java	/^  private void initialize(String driverClassName, String url) $/;"	m	class:DBCountPageView	file:
+initialized	DBCountPageView.java	/^  private boolean initialized = false;$/;"	f	class:DBCountPageView	file:
+jobResult	Sort.java	/^  private RunningJob jobResult = null;$/;"	f	class:Sort	file:
+key	SecondarySort.java	/^    private final IntPair key = new IntPair();$/;"	f	class:SecondarySort.MapClass	file:
+keySizeRange	RandomWriter.java	/^    private int keySizeRange;$/;"	f	class:RandomWriter.Map	file:
+main	AggregateWordCount.java	/^  public static void main(String[] args) throws IOException {$/;"	m	class:AggregateWordCount
+main	AggregateWordHistogram.java	/^  public static void main(String[] args) throws IOException {$/;"	m	class:AggregateWordHistogram
+main	DBCountPageView.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:DBCountPageView
+main	ExampleDriver.java	/^  public static void main(String argv[]){$/;"	m	class:ExampleDriver
+main	Grep.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:Grep
+main	Join.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:Join
+main	MultiFileWordCount.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:MultiFileWordCount
+main	PiEstimator.java	/^  public static void main(String[] argv) throws Exception {$/;"	m	class:PiEstimator
+main	RandomTextWriter.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:RandomTextWriter
+main	RandomWriter.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:RandomWriter
+main	SecondarySort.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:SecondarySort
+main	SleepJob.java	/^  public static void main(String[] args) throws Exception{$/;"	m	class:SleepJob
+main	Sort.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:Sort
+main	WordCount.java	/^  public static void main(String[] args) throws Exception {$/;"	m	class:WordCount
+map	DBCountPageView.java	/^    public void map(LongWritable key, AccessRecord value,$/;"	m	class:DBCountPageView.PageviewMapper
+map	MultiFileWordCount.java	/^    public void map(WordOffset key, Text value,$/;"	m	class:MultiFileWordCount.MapClass
+map	PiEstimator.java	/^    public void map(LongWritable offset,$/;"	m	class:PiEstimator.PiMapper
+map	RandomTextWriter.java	/^    public void map(Text key, Text value,$/;"	m	class:RandomTextWriter.Map
+map	RandomWriter.java	/^    public void map(WritableComparable key, $/;"	m	class:RandomWriter.Map
+map	SecondarySort.java	/^    public void map(LongWritable inKey, Text inValue, $/;"	m	class:SecondarySort.MapClass
+map	SleepJob.java	/^  public void map(IntWritable key, IntWritable value,$/;"	m	class:SleepJob
+map	WordCount.java	/^    public void map(Object key, Text value, Context context$/;"	m	class:WordCount.TokenizerMapper
+mapSleepCount	SleepJob.java	/^  private int mapSleepCount = 1;$/;"	f	class:SleepJob	file:
+mapSleepDuration	SleepJob.java	/^  private long mapSleepDuration = 100;$/;"	f	class:SleepJob	file:
+minKeySize	RandomWriter.java	/^    private int minKeySize;$/;"	f	class:RandomWriter.Map	file:
+minValueSize	RandomWriter.java	/^    private int minValueSize;$/;"	f	class:RandomWriter.Map	file:
+minWordsInKey	RandomTextWriter.java	/^    private int minWordsInKey;$/;"	f	class:RandomTextWriter.Map	file:
+minWordsInValue	RandomTextWriter.java	/^    private int minWordsInValue;$/;"	f	class:RandomTextWriter.Map	file:
+n	DBCountPageView.java	/^    NullWritable n = NullWritable.get();$/;"	f	class:DBCountPageView.PageviewReducer
+name	RandomWriter.java	/^      Path name;$/;"	f	class:RandomWriter.RandomInputFormat.RandomRecordReader
+next	MultiFileWordCount.java	/^    public boolean next(WordOffset key, Text value) throws IOException {$/;"	m	class:MultiFileWordCount.MultiFileLineRecordReader
+next	RandomWriter.java	/^      public boolean next(Text key, Text value) {$/;"	m	class:RandomWriter.RandomInputFormat.RandomRecordReader
+nextPoint	PiEstimator.java	/^    double[] nextPoint() {$/;"	m	class:PiEstimator.HaltonSequence
+numBytesToWrite	RandomTextWriter.java	/^    private long numBytesToWrite;$/;"	f	class:RandomTextWriter.Map	file:
+numBytesToWrite	RandomWriter.java	/^    private long numBytesToWrite;$/;"	f	class:RandomWriter.Map	file:
+numInside	PiEstimator.java	/^    private long numInside = 0;$/;"	f	class:PiEstimator.PiReducer	file:
+numOutside	PiEstimator.java	/^    private long numOutside = 0;$/;"	f	class:PiEstimator.PiReducer	file:
+offset	MultiFileWordCount.java	/^    private long offset; \/\/total offset read so far;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+offset	MultiFileWordCount.java	/^    private long offset;$/;"	f	class:MultiFileWordCount.WordOffset	file:
+one	MultiFileWordCount.java	/^    private final static IntWritable one = new IntWritable(1);$/;"	f	class:MultiFileWordCount.MapClass	file:
+one	WordCount.java	/^    private final static IntWritable one = new IntWritable(1);$/;"	f	class:WordCount.TokenizerMapper	file:
+org.apache.hadoop.examples	AggregateWordCount.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	AggregateWordHistogram.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	DBCountPageView.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	ExampleDriver.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	Grep.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	Join.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	MultiFileWordCount.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	PiEstimator.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	RandomTextWriter.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	RandomWriter.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	SecondarySort.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	SleepJob.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	Sort.java	/^package org.apache.hadoop.examples;$/;"	p
+org.apache.hadoop.examples	WordCount.java	/^package org.apache.hadoop.examples;$/;"	p
+pageview	DBCountPageView.java	/^    long pageview;$/;"	f	class:DBCountPageView.PageviewRecord
+paths	MultiFileWordCount.java	/^    private Path[] paths;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+populateAccess	DBCountPageView.java	/^  private void populateAccess() throws SQLException {$/;"	m	class:DBCountPageView	file:
+printUsage	Join.java	/^  static int printUsage() {$/;"	m	class:Join
+printUsage	MultiFileWordCount.java	/^  private void printUsage() {$/;"	m	class:MultiFileWordCount	file:
+printUsage	RandomTextWriter.java	/^  static int printUsage() {$/;"	m	class:RandomTextWriter
+printUsage	Sort.java	/^  static int printUsage() {$/;"	m	class:Sort
+q	PiEstimator.java	/^    private double[][] q;$/;"	f	class:PiEstimator.HaltonSequence	file:
+random	RandomTextWriter.java	/^    private Random random = new Random();$/;"	f	class:RandomTextWriter.Map	file:
+random	RandomWriter.java	/^    private Random random = new Random();$/;"	f	class:RandomWriter.Map	file:
+randomKey	RandomWriter.java	/^    private BytesWritable randomKey = new BytesWritable();$/;"	f	class:RandomWriter.Map	file:
+randomValue	RandomWriter.java	/^    private BytesWritable randomValue = new BytesWritable();$/;"	f	class:RandomWriter.Map	file:
+randomizeBytes	RandomWriter.java	/^    private void randomizeBytes(byte[] data, int offset, int length) {$/;"	m	class:RandomWriter.Map	file:
+readFields	DBCountPageView.java	/^    public void readFields(DataInput in) throws IOException {$/;"	m	class:DBCountPageView.AccessRecord
+readFields	DBCountPageView.java	/^    public void readFields(DataInput in) throws IOException {$/;"	m	class:DBCountPageView.PageviewRecord
+readFields	DBCountPageView.java	/^    public void readFields(ResultSet resultSet) throws SQLException {$/;"	m	class:DBCountPageView.AccessRecord
+readFields	DBCountPageView.java	/^    public void readFields(ResultSet resultSet) throws SQLException {$/;"	m	class:DBCountPageView.PageviewRecord
+readFields	MultiFileWordCount.java	/^    public void readFields(DataInput in) throws IOException {$/;"	m	class:MultiFileWordCount.WordOffset
+readFields	SecondarySort.java	/^    public void readFields(DataInput in) throws IOException {$/;"	m	class:SecondarySort.IntPair
+readFields	SleepJob.java	/^    public void readFields(DataInput in) throws IOException { }$/;"	m	class:SleepJob.EmptySplit
+reduce	DBCountPageView.java	/^    public void reduce(Text key, Iterator<LongWritable> values,$/;"	m	class:DBCountPageView.PageviewReducer
+reduce	PiEstimator.java	/^    public void reduce(BooleanWritable isInside,$/;"	m	class:PiEstimator.PiReducer
+reduce	SecondarySort.java	/^    public void reduce(IntPair key, Iterable<IntWritable> values,$/;"	m	class:SecondarySort.Reduce
+reduce	SleepJob.java	/^  public void reduce(IntWritable key, Iterator<NullWritable> values,$/;"	m	class:SleepJob
+reduce	WordCount.java	/^    public void reduce(Text key, Iterable<IntWritable> values, $/;"	m	class:WordCount.IntSumReducer
+reduceSleepCount	SleepJob.java	/^  private int reduceSleepCount = 1;$/;"	f	class:SleepJob	file:
+reduceSleepDuration	SleepJob.java	/^  private long reduceSleepDuration = 100;$/;"	f	class:SleepJob	file:
+referrer	DBCountPageView.java	/^    String referrer;$/;"	f	class:DBCountPageView.AccessRecord
+result	WordCount.java	/^    private IntWritable result = new IntWritable();$/;"	f	class:WordCount.IntSumReducer	file:
+run	DBCountPageView.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:DBCountPageView
+run	Grep.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:Grep
+run	Join.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:Join
+run	MultiFileWordCount.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:MultiFileWordCount
+run	PiEstimator.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:PiEstimator
+run	RandomTextWriter.java	/^  public int run(String[] args) throws Exception {    $/;"	m	class:RandomTextWriter
+run	RandomWriter.java	/^  public int run(String[] args) throws Exception {    $/;"	m	class:RandomWriter
+run	SleepJob.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:SleepJob
+run	SleepJob.java	/^  public int run(int numMapper, int numReducer, long mapSleepTime,$/;"	m	class:SleepJob
+run	Sort.java	/^  public int run(String[] args) throws Exception {$/;"	m	class:Sort
+second	SecondarySort.java	/^    private int second = 0;$/;"	f	class:SecondarySort.IntPair	file:
+server	DBCountPageView.java	/^  private Server server;$/;"	f	class:DBCountPageView	file:
+set	SecondarySort.java	/^    public void set(int left, int right) {$/;"	m	class:SecondarySort.IntPair
+setupJobConf	SleepJob.java	/^  public JobConf setupJobConf(int numMapper, int numReducer, $/;"	m	class:SleepJob
+shutdown	DBCountPageView.java	/^  private void shutdown() {$/;"	m	class:DBCountPageView	file:
+split	MultiFileWordCount.java	/^    private MultiFileSplit split;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+startHsqldbServer	DBCountPageView.java	/^  private void startHsqldbServer() {$/;"	m	class:DBCountPageView	file:
+time	DBCountPageView.java	/^    long time;$/;"	f	class:DBCountPageView.AccessRecord
+toString	DBCountPageView.java	/^    public String toString() {$/;"	m	class:DBCountPageView.PageviewRecord
+totLength	MultiFileWordCount.java	/^    private long totLength;$/;"	f	class:MultiFileWordCount.MultiFileLineRecordReader	file:
+url	DBCountPageView.java	/^    String url;$/;"	f	class:DBCountPageView.AccessRecord
+url	DBCountPageView.java	/^    String url;$/;"	f	class:DBCountPageView.PageviewRecord
+value	SecondarySort.java	/^    private final IntWritable value = new IntWritable();$/;"	f	class:SecondarySort.MapClass	file:
+valueSizeRange	RandomWriter.java	/^    private int valueSizeRange;$/;"	f	class:RandomWriter.Map	file:
+verify	DBCountPageView.java	/^  private boolean verify() throws SQLException {$/;"	m	class:DBCountPageView	file:
+word	MultiFileWordCount.java	/^    private Text word = new Text();$/;"	f	class:MultiFileWordCount.MapClass	file:
+word	WordCount.java	/^    private Text word = new Text();$/;"	f	class:WordCount.TokenizerMapper	file:
+words	RandomTextWriter.java	/^  private static String[] words = {$/;"	f	class:RandomTextWriter	file:
+wordsInKeyRange	RandomTextWriter.java	/^    private int wordsInKeyRange;$/;"	f	class:RandomTextWriter.Map	file:
+wordsInValueRange	RandomTextWriter.java	/^    private int wordsInValueRange;$/;"	f	class:RandomTextWriter.Map	file:
+write	DBCountPageView.java	/^    public void write(DataOutput out) throws IOException {$/;"	m	class:DBCountPageView.AccessRecord
+write	DBCountPageView.java	/^    public void write(DataOutput out) throws IOException {$/;"	m	class:DBCountPageView.PageviewRecord
+write	DBCountPageView.java	/^    public void write(PreparedStatement statement) throws SQLException {$/;"	m	class:DBCountPageView.AccessRecord
+write	DBCountPageView.java	/^    public void write(PreparedStatement statement) throws SQLException {$/;"	m	class:DBCountPageView.PageviewRecord
+write	MultiFileWordCount.java	/^    public void write(DataOutput out) throws IOException {$/;"	m	class:MultiFileWordCount.WordOffset
+write	SecondarySort.java	/^    public void write(DataOutput out) throws IOException {$/;"	m	class:SecondarySort.IntPair
+write	SleepJob.java	/^    public void write(DataOutput out) throws IOException { }$/;"	m	class:SleepJob.EmptySplit
+x	PiEstimator.java	/^    private double[] x;$/;"	f	class:PiEstimator.HaltonSequence	file:

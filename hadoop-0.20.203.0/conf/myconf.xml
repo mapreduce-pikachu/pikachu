@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>totalReduceSlots</name>
+		<value>4,10</value>
+	</property>
+
+	<property>
+		<name>nodeType1</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>nodeType2</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>maxVirtualBins</name>
+		<value>140</value>
+	</property>
+
+	<property>
+		<name>mapsForTasks</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>reducerDelay</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>isTarazu</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>tarazuR</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>hostsReducerShare</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>numberMapSlots</name>
+		<value></value>
+	</property>
+
+	<property>
+		<name>hostsForTasks</name>
+		<value></value>
+	</property>
+
+</configuration>
