@@ -5,10 +5,25 @@
 
 <configuration>
 
+
 <property>
   <name>mapred.job.tracker</name>
-  <value></value>
+  <value>ec2-50-17-20-74.compute-1.amazonaws.com:54000</value>
 </property>
+
+<!--
+<property>
+  <name>mapred.job.tracker</name>
+  <value>domU-12-31-39-09-E8-C7.compute-1.internal:54000</value>
+</property>
+
+
+<property>
+  <name>mapred.job.tracker</name>
+  <value>10.210.239.53:54000</value>
+</property>
+
+-->
 
 <property>
   <name>mapred.system.dir</name>
@@ -70,3 +85,4 @@
 </property>
 -->
 </configuration>
+

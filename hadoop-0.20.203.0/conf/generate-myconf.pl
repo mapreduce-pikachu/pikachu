@@ -23,19 +23,19 @@ $cValueEnd = "</value>" . "\n";
 #########################################################################################################
 # These are different fields. Arranges as name and values. DO CHANGE before generating.
 
-$nodetype1 = 20;
-$nodetype2 = 40; # For homogeneous cluster set nodetype2 to 0.
+$nodetype1 = 5;
+$nodetype2 = 34; # For homogeneous cluster set nodetype2 to 0.
 
-$reduceslotmachine1 = 2; # reduce slots per node 
+$reduceslotmachine1 = 2; 
 $reduceslotmachine2 = 2;
 
 $reduceslots1 = $nodetype1 * $reduceslotmachine1; # reduceslots = 2
 $reduceslots2 = $nodetype2 * $reduceslotmachine2;  # reduceslots = 2
 
-$istarazu = 1; # is experiment for tarazu?
-$tarazur = 1; # partition for tarazu in case the experiment is for tarazu.
+$istarazu = 0;
+$tarazur = 1;
 
-$reducedelay = 200; 
+$reducedelay = 200;
 $maxvirtualbins = ($reduceslots1 + $reduceslots2) * 10;
 
 if ($istarazu == 1){
@@ -91,6 +91,7 @@ $string = substr($string, 0, length($string) - 1);
 
 $fields{"hostsForTasks"} = $string;
 
+#"sp13.ecn.purdue.edu,sp13.ecn.purdue.edu,sp14.ecn.purdue.edu,sp14.ecn.purdue.edu,ds06.ecn.purdue.edu,ds06.ecn.purdue.edu,ds07.ecn.purdue.edu,ds07.ecn.purdue.edu,ds08.ecn.purdue.edu,ds08.ecn.purdue.edu,ds09.ecn.purdue.edu,ds09.ecn.purdue.edu,ds10.ecn.purdue.edu,ds10.ecn.purdue.edu"; 
 
 #host reducer share -- Not used. but let it be there.
 $fields{"hostsReducerShare"} = "0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13";
@@ -111,6 +112,7 @@ for ($i = 0; $i < $nodetype2; $i++){
 $string = substr($string, 0, length($string) - 1);
 
 $fields{"mapsForTasks"} = $string;
+#"sp13.ecn.purdue.edu,sp14.ecn.purdue.edu,ds06.ecn.purdue.edu,ds07.ecn.purdue.edu,ds08.ecn.purdue.edu,ds09.ecn.purdue.edu,ds10.ecn.purdue.edu";
 
 # reducerDelay
 $fields{"reducerDelay"} = $reducedelay;
@@ -130,6 +132,7 @@ $string = substr($string, 0, length($string) - 1);
 
 $fields{"nodeType1"} = $string;
 
+#"sp13.ecn.purdue.edu,sp14.ecn.purdue.edu";
 
 # nodeType2
 
@@ -142,6 +145,7 @@ for ($i = 0; $i < $nodetype2; $i++){
 $string = substr($string, 0, length($string) - 1);
 
 $fields{"nodeType2"} = $string;
+#"ds06.ecn.purdue.edu,ds07.ecn.purdue.edu,ds08.ecn.purdue.edu,ds09.ecn.purdue.edu,ds10.ecn.purdue.edu";
 
 # isTarazu
 $fields{"isTarazu"} = $istarazu;

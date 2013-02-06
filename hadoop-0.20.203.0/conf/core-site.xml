@@ -7,8 +7,29 @@
 
 <property>
   <name>fs.default.name</name>
-  <value>hdfs://</value>
+  <value>hdfs://ec2-50-17-20-74.compute-1.amazonaws.com:50003</value>
+</property>
+
+<!-- 
+<property>
+  <name>fs.default.name</name>
+  <value>hdfs://10.210.239.53:50003</value>
 </property>
 
 
+<property>
+  <name>fs.default.name</name>
+  <value>hdfs://domU-12-31-39-09-E8-C7.compute-1.internal:50003</value>
+</property>
+
+
+
+<property>
+  <name>hadoop.tmp.dir</name>
+  <value>/export/gandhir/tmp</value>
+</property>
+
+-->
+
 </configuration>
+
